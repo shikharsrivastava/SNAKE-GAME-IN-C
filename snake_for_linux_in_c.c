@@ -64,6 +64,12 @@ map[1][3].dir='r';
 display();
 char temp;
 int eaten=1;
+printf("controls\n");
+printf("w-> up , s->down , d->right , a->left\n");
+printf("press any key to continue\n");
+pos=getchar();
+pos=0;
+
 while(1)
 {	
 

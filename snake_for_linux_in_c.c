@@ -66,6 +66,7 @@ char temp;
 int eaten=1;
 printf("controls\n");
 printf("w-> up , s->down , d->right , a->left\n");
+printf("speed increases to double after every 5 units of food\n");
 printf("press any key to continue\n");
 pos=getchar();
 pos=0;
